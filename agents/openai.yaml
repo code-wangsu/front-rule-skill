@@ -1,0 +1,6 @@
+interface:
+  display_name: "前端 UI 还原与代码规范"
+  short_description: "设计稿忠实还原、无设计稿避免模板化、中文注释、真实接口字段、字符串 ID 与模块化规范"
+  default_prompt: "使用 $front-rule-skill，先核实项目、设计输入与接口事实；有设计稿按 tokens 对照与结构映射忠实还原，无设计稿先出设计计划并自审；按中文注释、唯一字段、字符串 ID 和 500 行限制完成当前前端任务；未知业务请让我确认。"
+policy:
+  allow_implicit_invocation: true
