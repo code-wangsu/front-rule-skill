@@ -1,6 +1,6 @@
 ---
 name: front-rule-skill
-description: 前端 UI 还原与代码规范。在新建或修改页面、组件、hooks、状态与 API 对接，按设计稿 / Figma / 截图 / 原型还原界面，或审查前端代码时使用；覆盖 Web 与 uni-app / Taro 跨端项目（小程序、H5、App Android / iOS，rpx 单位、条件编译、uni.xx 先查官方文档）。要求忠实还原设计输入、无设计稿时避免模板化默认审美、复用项目 tokens 与封装、中文注释、真实接口字段直绑、字符串 ID、单文件不超过 500 行并按职责拆分。不绑定框架、组件库、行业或模型客户端。
+description: 前端 UI 还原与代码规范，让 AI 写出贴合设计稿、沿用项目约定、可审查的前端代码。用于新建或修改页面、组件、hooks、状态管理与接口对接，按设计稿 / Figma / 截图 / 原型还原界面，替换 mock，以及审查前端代码；适用于 Vue、React、Angular 和 uni-app / Taro 跨端项目（小程序、H5、App Android / iOS）。写代码前先核对 package.json 中的框架版本、相邻页面和接口文档，各来源不一致时先让用户确认；复用项目已有的组件、目录和样式；要求中文注释、接口字段直绑、ID 用字符串、单文件不超过 500 行；跨端项目用 rpx 和条件编译；写完 lint 清零，并说明改动、影响和风险。
 version: 2.0.0
 author: EDY, Hermes Agent
 license: MIT
